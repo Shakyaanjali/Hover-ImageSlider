@@ -1,0 +1,72 @@
+/* ===============================
+         !! जय श्री राम !!
+=========================*/
+
+html, body {
+    width: 100%;
+    background-image: linear-gradient(51deg, red,yellow,orange ,yellow ,red);
+  }
+  
+  .container {
+    padding: 75px 0;
+    margin: 0 auto;
+    width: 1140px;
+  }
+  
+  h1 {
+    position: relative;
+    margin-bottom: 45px;
+    font-family: "Oswald", sans-serif;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #ff0303;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .Images-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  .photo {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+    /* filter: blur(1px); */
+    border-radius: 25px;
+  }
+  
+  .photo:hover {
+    flex: 7;
+    filter: blur(0px);
+  }
+  
+/*===============================
+        राम-राम-सा 
+=========================*/
+.photo-1 {
+    background-image: url("1st.jpg");
+  }
+  
+  .photo-2{
+    background-image: url("https://wallpapercave.com/wp/wp12026024.jpg");
+  }
+  
+  .photo-3{
+    background-image: url("3rd.jpg");
+ 
+  }
+  .photo-4{
+    background-image: url("https://w0.peakpx.com/wallpaper/82/300/HD-wallpaper-lord-rama-black-background-lord-jai-shri-ram.jpg");
+  }
+  .photo-5 {
+    background-image: url("5th.jpg");
+  }
+ 
+  
